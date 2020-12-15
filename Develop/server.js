@@ -11,7 +11,6 @@ app.use("/", htmlRoutes)
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
 app.listen(PORT, () => {
     console.log(`App listening on PORT: http://localhost:${PORT}`)
 });
