@@ -4,7 +4,7 @@ const app = express();
 
 const htmlRoutes = require("./routes/htmlRoutes")
 const apiRoutes = require("./routes/apiRoutes")
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 app.use("/api", apiRoutes)
 app.use("/", htmlRoutes)
