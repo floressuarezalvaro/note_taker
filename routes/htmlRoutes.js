@@ -1,5 +1,5 @@
-const path = require('path');
 const router = require('express').Router();
+const path = require('path');
 
     // console.log("html routes is running")
 router.get('/', (req, res) => {
@@ -14,5 +14,8 @@ router.get('/notes', (req, res) => {
 router.get("/assets/js/index.js", (req,res) => {
     res.sendFile(path.join(__dirname, "../public/assets/js/index.js"));
     })
+router.get("/assets/css/styles.css", (req,res) => {
+    res.sendFile(path.join(__dirname, "../public/assets/css/styles.css"));
+})
 
 module.exports = router;
