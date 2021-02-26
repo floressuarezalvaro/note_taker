@@ -6,7 +6,7 @@
 
 This repository provides the landing page for my note taker app. This app allows you to create and save notes.
 
-Please click the link here to access my [repository](https://github.com/floressuarezalvaro/note_taker). Below is a video of how my app works.
+To view the deployed Heroku app, please click [here](https://afs-note-taker.herokuapp.com/notes). Otherwise, please click the link here to access my [repository](https://github.com/floressuarezalvaro/note_taker). Lastly, below is a video of how my app works.
 
 ![Recording](./public/assets/noteTaker.gif)
 
